@@ -65,6 +65,7 @@ a {
 a:hover {
   color: var(--yellow);
   text-decoration: underline;
+  transition: 0.5s;
   text-underline-offset: 1rem;
   text-decoration-color: var(--white);
 }
@@ -243,6 +244,23 @@ section {
   gap: 1rem;
 }
 
+#socials-container a i {
+  color: var(--yellow);
+}
+
+.section__text__p2 span {
+  color: var(--yellow);
+}
+
+.fa-brands, 
+.fa-solid {
+  font-size: 2rem;
+  color: var(--yellow);
+}
+.article-container article div {
+  display: flex;
+  gap: 1em;
+}
 /* ICONS */
 
 .icon {
@@ -334,6 +352,15 @@ section {
   text-align: center;
 }
 
+.details-container p {
+  color: black;
+  text-align: left;
+}
+
+.p-container {
+  margin-top: 2rem;
+}
+
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -370,7 +397,7 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 article {
