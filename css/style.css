@@ -16,7 +16,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--darkblue);
+  background-image: linear-gradient(to bottom, #010018, #39003e); 
 }
 
 html {
