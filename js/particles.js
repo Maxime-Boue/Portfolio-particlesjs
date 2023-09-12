@@ -13,7 +13,7 @@ particlesJS("background", {
             value: "#ffffff", // Particles color
         },
         shape: {
-            type: "circle", // Shape type
+            type: "triangle", // Shape type
         },
         opacity: {
             value: 0.8, // Base opacity of particles
